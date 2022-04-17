@@ -1,0 +1,508 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2"
+     xml:base="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#sameAs -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#sameAs">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasFantasyArmy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasFantasyArmy">
+        <rdfs:comment xml:lang="en">Some areas have a fantasy army: dragons, white walkers...</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasRuler -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasRuler">
+        <rdfs:comment xml:lang="en">Every administrative area has a ruler: King, Khaleesi...</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasMilitaryPower -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasMilitaryPower">
+        <rdfs:comment xml:lang="en">How big is the military power of the region.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasWealth -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasWealth">
+        <rdfs:comment xml:lang="en">How much wealth is the area.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Astapor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Astapor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasRuler"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Astapor was called the Red City. This is a slave town on the eastern shore of Slaver&apos;s Bay. The symbol of the city is the harpy from the ancient empire of Ghis.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Braavos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Braavos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasRuler"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Braavos, also known as Braavos of the Thousand Islands, is the largest and most powerful of the Free Cities.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Crownlands -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Crownlands">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Seven_Kingdoms"/>
+        <rdfs:comment xml:lang="en">The crownlands is one of the nine constituent regions of the Seven Kingdoms of Westeros. It was never a sovereign nation.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Dorne -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Dorne">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Seven_Kingdoms"/>
+        <rdfs:comment xml:lang="en">Dorne is a large peninsula that makes up the southernmost region of Westeros.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Dothraki_Great_Khalasar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Dothraki_Great_Khalasar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasFantasyArmy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasRuler"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">The Dothraki Sea is a vast grassy plain located in the interior of Essos.</rdfs:comment>
+        <rdfs:sameAs xml:lang="en">https://dbpedia.org/page/Daenerys_Targaryen</rdfs:sameAs>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Free_Folk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Free_Folk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasFantasyArmy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasRuler"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Beyond the Wall is where the Free Folk lives. This is a generic term used to refer to the northernmost region of Westeros, extending from the Wall to the north and end of the continent, its shores washed by the Sunset Sea to the west and the Sea of Lost. Chills to the east.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones">
+        <rdfs:sameAs xml:lang="en">https://dbpedia.org/page/Game_of_Thrones</rdfs:sameAs>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Ibben -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Ibben">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasRuler"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Ibben, also called Ib after the largest island, is an island nation located in the Shivering Sea, north of Essos.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Iron_Islands -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Iron_Islands">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Seven_Kingdoms"/>
+        <rdfs:comment xml:lang="en">The Iron Islands is one of the nine constituent regions of Westeros. They are a cluster of seven small, rocky islands off the western coast of the continent, in Ironman&apos;s Bay.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Lazhar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Lazhar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasRuler"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Lhazar is a region of semi-arid land south of the Dothraki Sea.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Lorath -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Lorath">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasRuler"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Lorath es una de las nueve Ciudades Libres ubicadas en el continente oriental de Essos.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Lys -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Lys">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasRuler"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Lys is one of the Free Cities located off the coast of Essos.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Myr -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Myr">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasRuler"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Myr is one of the nine Free Cities located in Essos. It is a city located on the eastern shore of the Sea of Joy, along the western coast of Essos.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#North -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#North">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Seven_Kingdoms"/>
+        <rdfs:comment xml:lang="en">The North is the principal region of the Kingdom of the North. It was formerly one of the constituent regions of the Seven Kingdoms after the Targaryen conquest, but seceded during the War of the Five Kings under King in the North Robb Stark.</rdfs:comment>
+        <rdfs:sameAs xml:lang="en">https://dbpedia.org/page/Ned_Stark</rdfs:sameAs>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Qarth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Qarth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasRuler"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Qarth is a port city located on the southern coast of Essos. Situated in a central location, Qarth is a meeting point for trade and culture from east and west, north and south.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Qohor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Qohor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasRuler"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Qohor is one of the nine Free Cities located in Essos and the easternmost of them.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Reach -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Reach">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Seven_Kingdoms"/>
+        <rdfs:comment xml:lang="en">The Reach is one of the administrative regions of the Seven Kingdoms, and was formerly a sovereign nation known as the Kingdom of the Reach before the Targaryen conquest.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Riverlands -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Riverlands">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Seven_Kingdoms"/>
+        <rdfs:comment xml:lang="en">The Riverlands is one of the constituent regions of the Seven Kingdoms. They have been a frequent battleground in the civil wars that have afflicted the Seven Kingdoms and also in the wars that took place between the old nations of the continent before the Targaryen Conquest.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Seven_Kingdoms -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Seven_Kingdoms">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasRuler"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">The people of the Seven Kingdoms are a mixture of several ethnic groups which have migrated to Westeros over the centuries and intermarried over hundreds and thousands of years.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Stormlands -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Stormlands">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Seven_Kingdoms"/>
+        <rdfs:comment xml:lang="en">The Stormlands is one of the nine constituent regions of the Seven Kingdoms. It is located on the south east coast of the continent of Westeros, on the shores of the Narrow Sea, south of the Crownlands and north of Dorne.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Tyrosh -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Tyrosh">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasRuler"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Tyrosh is one of nine Free Cities located on the eastern continent of Essos.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Vale_of_Arryn -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Vale_of_Arryn">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Seven_Kingdoms"/>
+        <rdfs:comment xml:lang="en">The Vale of Arryn, often referred to simply as the Vale, is one of the constituent regions of the Six Kingdoms. Prior to the War of Conquest, it was a sovereign nation known as the Kingdom of the Mountain and the Vale.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Volantis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Volantis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasRuler"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Volantis is the oldest of the Free Cities. It was the first colony of the Freehold of Valyria and still maintains many of its traditions.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Westerlands -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Westerlands">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Seven_Kingdoms"/>
+        <rdfs:comment xml:lang="en">The westerlands is a region in the west of the continent of Westeros. Before Aegon&apos;s Conquest, it was known as the Kingdom of the Rock.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Yi_Ti -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Yi_Ti">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasRuler"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Yi Ti is a region of Essos located east of Qarth and the Bone Mountains and northwest of Asshai with coastlines washed by the Jade Sea.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Cleon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Cleon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Astapor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Daenerys_Targaryen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Daenerys_Targaryen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Dothraki_Great_Khalasar"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Mance_Rayder -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Mance_Rayder">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Sealord -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Sealord">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Braavos"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Shadow_Council -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Shadow_Council">
+        <rdf:type rdf:resource="http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Ibben"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:isDefinedBy xml:lang="en">Francisco Javier Rivas Martín</rdfs:isDefinedBy>
+        <rdfs:comment xml:lang="en">Game of Thrones rulers by Administrative divisions.</rdfs:comment>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
