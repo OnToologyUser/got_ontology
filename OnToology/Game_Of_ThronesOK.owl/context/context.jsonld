@@ -1,0 +1,102 @@
+{
+  "@context" : {
+    "hasRuler" : {
+      "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasRuler",
+      "@type" : "@id"
+    },
+    "Yi_Ti" : {
+      "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Yi_Ti"
+    },
+    "Lorath" : {
+      "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Lorath"
+    },
+    "Dothraki_Great_Khalasar" : {
+      "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Dothraki_Great_Khalasar"
+    },
+    "Iron_Islands" : {
+      "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Iron_Islands"
+    },
+    "hasFantasyArmy" : {
+      "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasFantasyArmy",
+      "@type" : "@id"
+    },
+    "Westerlands" : {
+      "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Westerlands"
+    },
+    "Tyrosh" : {
+      "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Tyrosh"
+    },
+    "Free_Folk" : {
+      "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Free_Folk"
+    },
+    "hasWealth" : {
+      "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasWealth"
+    },
+    "Dorne" : {
+      "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Dorne"
+    },
+    "Lazhar" : {
+      "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Lazhar"
+    },
+    "Riverlands" : {
+      "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Riverlands"
+    },
+    "Lys" : {
+      "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Lys"
+    },
+    "Astapor" : {
+      "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Astapor"
+    },
+    "Volantis" : {
+      "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Volantis"
+    },
+    "Vale_of_Arryn" : {
+      "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Vale_of_Arryn"
+    },
+    "Seven_Kingdoms" : {
+      "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Seven_Kingdoms"
+    },
+    "Stormlands" : {
+      "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Stormlands"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "Game_of_Thrones" : {
+      "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"
+    },
+    "Crownlands" : {
+      "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Crownlands"
+    },
+    "Reach" : {
+      "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Reach"
+    },
+    "North" : {
+      "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#North"
+    },
+    "Braavos" : {
+      "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Braavos"
+    },
+    "Myr" : {
+      "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Myr"
+    },
+    "Ibben" : {
+      "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Ibben"
+    },
+    "Qohor" : {
+      "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Qohor"
+    },
+    "sameAs" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "Qarth" : {
+      "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Qarth"
+    },
+    "hasMilitaryPower" : {
+      "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasMilitaryPower"
+    }
+  }
+}
