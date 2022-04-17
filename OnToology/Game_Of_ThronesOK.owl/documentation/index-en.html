@@ -11,6 +11,7 @@
 <script src="resources/jquery.js"></script> 
 <script src="resources/marked.min.js"></script> 
     <script> 
+	    
 function loadHash() {
   jQuery(".markdown").each(function(el){jQuery(this).after(marked(jQuery(this).text())).remove()});
 	var hash = location.hash;
@@ -69,7 +70,7 @@ function loadTOC(){
 </div>
 <div class="status">
 <div>
-<span>Ontology Specification Draft</span>
+<span>Ontology Specification Draft </span>
 </div>
 </div>     <div id="abstract"></div>
 <div id="toc"></div>     <div id="introduction"></div>
