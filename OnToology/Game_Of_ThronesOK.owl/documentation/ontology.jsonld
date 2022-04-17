@@ -1,0 +1,580 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasRuler"
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasRuler"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasRuler"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasRuler"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasRuler"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasRuler"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasRuler"
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasRuler"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasRuler"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasRuler"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasFantasyArmy"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasRuler"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasFantasyArmy"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasRuler"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasRuler"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasRuler"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasRuler"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Astapor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Astapor was called the Red City. This is a slave town on the eastern shore of Slaver's Bay. The symbol of the city is the harpy from the ancient empire of Ghis."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"
+  }, {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Braavos",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Braavos, also known as Braavos of the Thousand Islands, is the largest and most powerful of the Free Cities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"
+  }, {
+    "@id" : "_:genid2"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Cleon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Astapor"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Crownlands",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The crownlands is one of the nine constituent regions of the Seven Kingdoms of Westeros. It was never a sovereign nation."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Seven_Kingdoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Daenerys_Targaryen",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Dothraki_Great_Khalasar"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Dorne",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Dorne is a large peninsula that makes up the southernmost region of Westeros."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Seven_Kingdoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Dothraki_Great_Khalasar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The Dothraki Sea is a vast grassy plain located in the interior of Essos."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@language" : "en",
+    "@value" : "https://dbpedia.org/page/Daenerys_Targaryen"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"
+  }, {
+    "@id" : "_:genid3"
+  }, {
+    "@id" : "_:genid4"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Free_Folk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Beyond the Wall is where the Free Folk lives. This is a generic term used to refer to the northernmost region of Westeros, extending from the Wall to the north and end of the continent, its shores washed by the Sunset Sea to the west and the Sea of Lost. Chills to the east."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"
+  }, {
+    "@id" : "_:genid5"
+  }, {
+    "@id" : "_:genid6"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@language" : "en",
+    "@value" : "https://dbpedia.org/page/Game_of_Thrones"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Ibben",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Ibben, also called Ib after the largest island, is an island nation located in the Shivering Sea, north of Essos."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"
+  }, {
+    "@id" : "_:genid7"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Iron_Islands",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The Iron Islands is one of the nine constituent regions of Westeros. They are a cluster of seven small, rocky islands off the western coast of the continent, in Ironman's Bay."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Seven_Kingdoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Lazhar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Lhazar is a region of semi-arid land south of the Dothraki Sea."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"
+  }, {
+    "@id" : "_:genid8"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Lorath",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Lorath es una de las nueve Ciudades Libres ubicadas en el continente oriental de Essos."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"
+  }, {
+    "@id" : "_:genid9"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Lys",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Lys is one of the Free Cities located off the coast of Essos."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"
+  }, {
+    "@id" : "_:genid10"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Mance_Rayder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Myr",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Myr is one of the nine Free Cities located in Essos. It is a city located on the eastern shore of the Sea of Joy, along the western coast of Essos."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"
+  }, {
+    "@id" : "_:genid11"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#North",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The North is the principal region of the Kingdom of the North. It was formerly one of the constituent regions of the Seven Kingdoms after the Targaryen conquest, but seceded during the War of the Five Kings under King in the North Robb Stark."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@language" : "en",
+    "@value" : "https://dbpedia.org/page/Ned_Stark"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Seven_Kingdoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Qarth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Qarth is a port city located on the southern coast of Essos. Situated in a central location, Qarth is a meeting point for trade and culture from east and west, north and south."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"
+  }, {
+    "@id" : "_:genid12"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Qohor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Qohor is one of the nine Free Cities located in Essos and the easternmost of them."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"
+  }, {
+    "@id" : "_:genid13"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Reach",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The Reach is one of the administrative regions of the Seven Kingdoms, and was formerly a sovereign nation known as the Kingdom of the Reach before the Targaryen conquest."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Seven_Kingdoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Riverlands",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The Riverlands is one of the constituent regions of the Seven Kingdoms. They have been a frequent battleground in the civil wars that have afflicted the Seven Kingdoms and also in the wars that took place between the old nations of the continent before the Targaryen Conquest."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Seven_Kingdoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Sealord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Braavos"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Seven_Kingdoms",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The people of the Seven Kingdoms are a mixture of several ethnic groups which have migrated to Westeros over the centuries and intermarried over hundreds and thousands of years."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"
+  }, {
+    "@id" : "_:genid14"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Shadow_Council",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Ibben"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Stormlands",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The Stormlands is one of the nine constituent regions of the Seven Kingdoms. It is located on the south east coast of the continent of Westeros, on the shores of the Narrow Sea, south of the Crownlands and north of Dorne."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Seven_Kingdoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Tyrosh",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Tyrosh is one of nine Free Cities located on the eastern continent of Essos."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"
+  }, {
+    "@id" : "_:genid15"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Vale_of_Arryn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The Vale of Arryn, often referred to simply as the Vale, is one of the constituent regions of the Six Kingdoms. Prior to the War of Conquest, it was a sovereign nation known as the Kingdom of the Mountain and the Vale."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Seven_Kingdoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Volantis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Volantis is the oldest of the Free Cities. It was the first colony of the Freehold of Valyria and still maintains many of its traditions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"
+  }, {
+    "@id" : "_:genid16"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Westerlands",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The westerlands is a region in the west of the continent of Westeros. Before Aegon's Conquest, it was known as the Kingdom of the Rock."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Seven_Kingdoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Yi_Ti",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Yi Ti is a region of Essos located east of Qarth and the Bone Mountains and northwest of Asshai with coastlines washed by the Jade Sea."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#Game_of_Thrones"
+  }, {
+    "@id" : "_:genid17"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasFantasyArmy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Some areas have a fantasy army: dragons, white walkers..."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasMilitaryPower",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "How big is the military power of the region."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasRuler",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Every administrative area has a ruler: King, Khaleesi..."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/pak/ontologies/2022/3/untitled-ontology-2#hasWealth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "How much wealth is the area."
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#Thing",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Game of Thrones rulers by Administrative divisions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Francisco Javier Rivas Martín"
+  } ]
+} ]
